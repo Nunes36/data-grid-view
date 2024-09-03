@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.dvg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dgvTitulos {
+    width: 600px;
+    background-color: #138;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: row;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.dgvTitulos div, .dgvLinha div {
+    padding: 5px;
+}
+
+.dgvDados {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.dgvLinha {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex-direction: row;
+}
+
+.dgvLinha:nth-child(odd) {
+    background-color: #aaa;
+}
+
+.dgvLinha:nth-child(even) {
+    background-color: #ddd;
+}
+
+.dgvLinha:hover {
+    background-color: #088 !important;
+    cursor: pointer;
+}
+
+.coluna {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c1 {
+    width: 50px;
+}
+
+.c2 {
+    width: 150px;
+}
+
+.c3 {
+    width: 150px;
+}
+
+.c4 {
+    width: 150px;
+}
+
+.c5 {
+    width: 100px;
+    justify-content: space-around !important;
+}
+
+.dgvIcone {
+    width: 20px;
+}
